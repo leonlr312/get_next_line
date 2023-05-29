@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: leoda-lu <leoda-lu@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/18 15:46:42 by leoda-lu          #+#    #+#             */
-/*   Updated: 2023/06/01 11:30:57 by leoda-lu         ###   ########.fr       */
+/*   Created: 2023/05/29 09:40:45 by leoda-lu          #+#    #+#             */
+/*   Updated: 2023/05/29 16:53:49 by leoda-lu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 # define MAX_FD 1024
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 10

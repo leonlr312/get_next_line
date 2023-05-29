@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: leoda-lu <leoda-lu@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/18 15:46:39 by leoda-lu          #+#    #+#             */
-/*   Updated: 2023/06/01 11:30:09 by leoda-lu         ###   ########.fr       */
+/*   Created: 2023/05/29 09:41:14 by leoda-lu          #+#    #+#             */
+/*   Updated: 2023/05/29 16:55:00 by leoda-lu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*memslice(char	*newline, t_list *lst, char *line)
 {
@@ -80,4 +80,5 @@ char	*get_next_line(int fd)
 			return (lastslice(lst, NULL));
 		lst->len_b += bytes;
 	}
+	return (NULL);
 }
